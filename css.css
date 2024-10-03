@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+.cabezeraPrincipal{
+background-color: #343a40;
+display: flex;
+justify-content: space-between;
+position: fixed;
+top: 0;
+width: 100%;
+}
+.cabezeraPrincipal ul {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+.cabezeraPrincipal li {
+    margin: 0 10px;
+}
+.cabezeraPrincipal .menu,
+.cabezeraPrincipal .contact li {
+    align-items: center;
+    display: flex;
+}
+.cabezeraPrincipal li a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    background-color: #fa0034;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cuerpoPage{
+    height: 100vh;
+    background-image: url("./images/main.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.cuerpoPage .body {
+    background: rgba(33, 37, 41, 0.85);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cuerpoPage .body .titulo {
+    font-size: 80px;
+}
+.cuerpoPage .body .subt {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.cuerpoPage .body .btn {
+    font-size: 20px;
+}
+.aboutPage{
+    height: 100vh;
+}
+.aboutPage .body {
+    display: flex;
+    height: 100%;
+}
+.aboutPage .body .image {
+    width: 50%;
+    background-image: url("./images/about-section.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.aboutPage .body .information {
+    width: 50%;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 90px;
+}
+.aboutPage .body .information .tittle {
+    font-size: 40px;
+}
+.aboutPage .body .information .info p {
+    font-size: 20px;
+    margin-top: 20px;
+}
